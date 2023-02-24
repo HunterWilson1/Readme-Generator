@@ -28,7 +28,7 @@ const questions = [
         type: "list",
         message: "choose a license for your project.",
         name: "license",
-        choices: []
+        choices: ["MIT" ,"GPLv2", "Apache", "Other", "None"]
     },
     {
         type: "input",
@@ -55,7 +55,13 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
-
+    fs.writeFile(fileName,data, (err) => {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log("README file has been made!")
+        }
+    })
 // TODO: Create a function to initialize app
 function init() {}
 
