@@ -1,35 +1,22 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  if (license !== "None") {
+    return `
+    ![Github License](https://img.shields.io/badge/License-${license}-yellow.svg)
+    `;
+  }
 
-  if (license == 'MIT') {
-    return `
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-    `
-  } else if 
-    (license == 'Apache') {
-    return `
-    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-    `
-  } else if 
-    (license == 'GPLv2') {
-    return `
-    [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-    `
-  } else if
-    (license == 'None') {
-      return ``
-    }
-
+  return "";
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'None') {
-    return `[License](#license)`
+  if (license !== "None") {
+    return `[License](#license)`;
   }
-  return '';
+  return "";
 }
 
 // TODO: Create a function that returns the license section of README
@@ -40,7 +27,7 @@ function renderLicenseSection(license) {
     
     This project is licensed under the ${license} license. Click the badge below for more information:
 
-${renderLicenseBadge(license)}`
+`;
   }
   return "";
 }
@@ -71,6 +58,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
+
+  ${renderLicenseBadge(data.license)}
 
   ## Contributing
 
