@@ -7,7 +7,7 @@
   ## Table of Contents
 
   * [Installation](#installation)
-  * [Usage](#usage)
+  * [Usage](#usage)[License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -20,7 +20,13 @@
 
   
 
-  
+  ## License
+    
+    This project is licensed under the MIT license. Click the badge below for more information:
+
+
+    ![MIT](https://img.shields.io/badge/License-MIT-red.svg)
+    
 
   ## Contributing
 
