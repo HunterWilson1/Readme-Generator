@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
 
   if (license == 'MIT') {
     return `
-    ![${license}](https://img.shields.io/badge/License-MIT-red.svg)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     `
   }
 
