@@ -1,8 +1,8 @@
-# Readme gen
+# readme
 
   ## Description
 
-  it makes readmes
+  makes readme
 
   ## Table of Contents
 
@@ -14,18 +14,18 @@
 
   ## Installation
 
-  do it
+  dont
 
   ## Usage
 
-  type stuff
+  use readme
 
   ## License
     
-    This project is licensed under the MIT license. Click the badge below for more information:
+    This project is licensed under the Apache license. Click the badge below for more information:
 
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     
 
   ## Contributing
@@ -34,14 +34,14 @@
 
   ## Tests
 
-  dont
+  dolnt
 
   ## Questions
 
   If you have any questions then my github username and email are listed below.
 
-  HunterWilson1
+  Hunter
 
-  hunter
+  M
 
 

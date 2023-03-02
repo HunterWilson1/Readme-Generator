@@ -4,9 +4,22 @@ function renderLicenseBadge(license) {
 
   if (license == 'MIT') {
     return `
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
     `
-  }
+  } else if 
+    (license == 'Apache') {
+    return `
+    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    `
+  } else if 
+    (license == 'GPLv2') {
+    return `
+    [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+    `
+  } else if
+    (license == 'None') {
+      return ``
+    }
 
 }
 
@@ -43,7 +56,8 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   * [Installation](#installation)
-  * [Usage](#usage)${renderLicenseLink(data.license)}
+  * [Usage](#usage)
+  * ${renderLicenseLink(data.license)}
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
