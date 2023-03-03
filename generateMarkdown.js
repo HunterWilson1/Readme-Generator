@@ -26,7 +26,6 @@ function renderLicenseSection(license) {
     return `## License
     
     This project is licensed under the ${license} license. Click the badge below for more information:
-
 `;
   }
   return "";
