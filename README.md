@@ -4,6 +4,9 @@
 
   It creates a Readme file based off of inputs from Node.js inputs.
 
+  ## Video walkthrough link
+  https://clipchamp.com/watch/KyxQM8Of6lO
+
   ## Table of Contents
 
   * [Installation](#installation)

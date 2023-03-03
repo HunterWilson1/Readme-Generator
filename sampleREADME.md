@@ -1,8 +1,8 @@
-# Readme generator
+# Readme Generator
 
   ## Description
 
-  makes readme
+  It creates readme files
 
   ## Table of Contents
 
@@ -15,16 +15,15 @@
 
   ## Installation
 
-  
+  clone the repo
 
   ## Usage
 
-  
+  answer the inputs
 
   ## License
     
     This project is licensed under the MIT license. Click the badge below for more information:
-
 
 
   
@@ -33,18 +32,18 @@
 
   ## Contributing
 
-  
+  email suggestions
 
   ## Tests
 
-  
+  run the code yourself
 
   ## Questions
 
   If you have any questions then my github username and email are listed below.
 
-  
+  HunterWilson1
 
-  
+  Huntertheguy123@gmail.com
 
 
